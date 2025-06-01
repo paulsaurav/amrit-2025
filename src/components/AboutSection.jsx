@@ -4,10 +4,10 @@ const AboutSection = () => {
   return (
     <section className="bg-white text-center py-12 px-4">
       <div className="max-w-[1175px] mx-auto">
-        <h2 className="text-xl font-bold mt-2 text-gray-900">
+        <h2 className="text-2xl font-bold mt-2 text-gray-900">
           ABOUT ASSAM UNIVERSITY
         </h2>
-        <p className="text-gray-800 text-sm font-medium mt-1 text-justify">
+        <p className="text-gray-800 text-md font-medium mt-1 text-justify">
           Assam University, Silchar is a Central University established by an
           Act of the Indian Parliament (Act XXIII of 1989), and came into
           existence in 1994. Situated in the Barak Valley of southern Assam, the
@@ -40,10 +40,10 @@ const AboutSection = () => {
           infrastructural facilities.
         </p>
         <div>
-          <h2 className="text-xl font-bold mt-2 text-gray-900">
+          <h2 className="text-2xl font-bold mt-2 text-gray-900">
             ABOUT THE DEPARTMENT
           </h2>
-          <p className="text-gray-800 text-sm font-medium mt-1 text-justify">
+          <p className="text-gray-800 text-md font-medium mt-1 text-justify">
             The Department of Computer Science was established in July 1997. The
             Department offers a five-year integrated course leading to the
             Degree of M. Sc. in Computer Science. Provision exists for the

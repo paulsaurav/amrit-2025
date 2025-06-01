@@ -6,10 +6,10 @@ const AboutConference = () => {
       <div className="max-w-[1175px] mx-auto flex flex-col md:flex-row gap-8">
         {/* LEFT: About the Conference */}
         <div className="w-full md:w-[70%]">
-          <h2 className="text-xl font-bold mt-2 text-gray-900">
+          <h2 className="text-2xl font-bold mt-2 text-gray-900">
             ABOUT THE CONFERENCE
           </h2>
-          <p className="text-gray-800 text-sm font-medium mt-1 text-justify">
+          <p className="text-gray-800 text-md font-medium mt-1 text-justify">
             AMRIT-2023 is the first International Conference in the Department
             of Computer Science. The conference aims to gain significant
             interest among researchers, academicians, professionals, and
@@ -45,7 +45,7 @@ const AboutConference = () => {
 
         {/* RIGHT: Notices */}
         <div className="w-full md:w-[30%]">
-          <h2 className="text-xl font-bold mt-2 text-gray-900">NOTICES</h2>
+          <h2 className="text-2xl font-bold mt-2 text-gray-900">NOTICES</h2>
           <div className="bg-gray-200 rounded-lg p-4 shadow-sm h-full">
             <ul className="space-y-3 text-left text-sm">
               {/* Example placeholder items */}

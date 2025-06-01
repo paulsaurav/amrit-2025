@@ -10,7 +10,7 @@ export default function HeroSection() {
     >
       
       <div className="flex items-center h-full w-full">
-        <div className="sm:px-10 md:px-20 lg:px-44">
+        <div className="sm:px-10 md:px-40 lg:px-80">
           <HeroTitleBlock />
         </div>
       </div>
