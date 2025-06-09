@@ -1,30 +1,15 @@
-import React from 'react'
-import Header from './components/Header';
-import HeroSection from './components/HeroSection';
-import AboutSection from './components/AboutSection';
-import ConferenceInfo from './components/ConferenceInfo';
-import Gallery from './components/Gallery';
-import AboutConference from './components/AboutConference';
-import HomepageOtherDetails from './components/HomepageOtherDetails';
-import Venue from './components/Venue';
-import Sponsors from './components/Sponsors';
-import Footer from './components/Footer';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import Home from './pages/Home'; 
+// import CMTAcknowledgment from './pages/CMTAcknowledgment'; 
 
 const App = () => {
   return (
-    <>
-    <Header />
-    <HeroSection />
-    <ConferenceInfo />
-    <AboutSection />
-    <Gallery />
-    <AboutConference />
-    <HomepageOtherDetails />
-    <Venue />
-    <Sponsors />
-    <Footer />
-    </>
-  )
-}
+    <Routes>
+      <Route path="/" element={<Home />} />
+      {/* <Route path="/cmt_acknowledgment" element={<CMTAcknowledgment />} /> */}
+    </Routes>
+  );
+};
 
-export default App
+export default App;
