@@ -12,6 +12,7 @@ export default function HeroSection() {
       <div className="flex items-center h-full w-full">
         <div className="sm:px-10 md:px-40 lg:px-80">
           <HeroTitleBlock />
+          <button className="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg xl:btn-xl btn-primary"><a href="https://cmt3.research.microsoft.com/AMRIT2025" target="_blank">PAPER SUBMISSION</a></button>
         </div>
       </div>
 

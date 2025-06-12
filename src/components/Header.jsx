@@ -1,9 +1,10 @@
 import logo from '/aus-logo.png';
 import amrit from '/amrit-logo.png';
+import { Link } from 'react-router-dom';
 export default function Header() {
   return (
     <header>
-      <div className="navbar absolute top-0 left-0 right-0 z-10 bg-transparent text-white">
+      <div className="navbar top-0 left-0 right-0 z-10 bg-gray-400 text-white">
         <div className="mx-auto max-w-[1175px] w-full flex justify-between items-center px-4">
         <div className="navbar-start">
           <div className="dropdown">
@@ -48,11 +49,14 @@ export default function Header() {
             </ul> */}
           </div>
           {/* <a className="btn btn-ghost text-xl">daisyUI</a> */}
+          <Link to="/">
           <img src={logo} 
           alt="Logo"
-          width={70} 
-          height={70} 
+          width={80} 
+          height={80} 
           />
+          </Link>
+          
         </div>
         <div className="navbar-center hidden lg:flex">
           {/* <ul className="menu menu-horizontal px-1">
@@ -81,8 +85,8 @@ export default function Header() {
           {/* <a className="btn">Button</a> */}
           <img src={amrit} 
           alt="Logo"
-          width={70} 
-          height={70} 
+          width={80} 
+          height={80} 
           />
         </div>
       </div>
